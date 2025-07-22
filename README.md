@@ -72,7 +72,8 @@ These features are highly relevant for predicting H1N1 vaccine behavior, as they
 
 ### A) Target Variable Distribution
 
-![alt text](image.png)
+<img width="589" height="453" alt="image" src="https://github.com/user-attachments/assets/45fe346b-b2ed-4630-8935-029fd2984897" />
+
 
 The bar chart above visualizes the distribution of the target variable:
 
@@ -88,7 +89,8 @@ To address this, techniques like class weighting is necessary.
 
 ### B) Distribution of Numerical Features
 
-![alt text](image-1.png)
+<img width="1784" height="3265" alt="image" src="https://github.com/user-attachments/assets/7ea0bca8-c0cb-47ac-98b3-e77562d5c7f2" />
+
 
 The figure above visualizes the distribution of all numerical features in the dataset.
 
@@ -110,7 +112,8 @@ The strong skewness in binary and ordinal variables indicates potential class im
 
 ### C) Relationship between Categorical Features and Target
 
-![alt text](image-2.png)
+<img width="579" height="517" alt="image" src="https://github.com/user-attachments/assets/983e7673-0269-4750-98e4-b9de1883d08f" />
+
 
 The chart above highlights differences in H1N1 vaccination rates across age groups:
 
@@ -134,7 +137,8 @@ I Used the following models :
 
 ### Top 10 Feature Importance Analysis
 
-![alt text](image-3.png)
+<img width="984" height="584" alt="image" src="https://github.com/user-attachments/assets/517ea9cb-9005-4d1e-9430-b1e9665a6acb" />
+
 
 * The most influential factors driving H1N1 vaccination includes Doctor's recommendation, Perceived personal risk and Belief in vaccine effectiveness -These highlight the importance of trust in medical advice and confidence in the vaccine.
 
@@ -152,7 +156,8 @@ These model's performance was evaluated using the following classification metri
 
 ### ROC Curve Comparison 
 
-![alt text](image-4.png)
+<img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/11d1df66-86e5-4603-872f-91bd0dd42abe" />
+
 
 ### Model Evaluation Summary 
 

@@ -154,6 +154,13 @@ These model's performance was evaluated using the following classification metri
 
 **2.** **Random Forest Classifier** - It achieved higher overall accuracy, largely by correctly classifying the majority class (those not vaccinated). However, it suffers from lower recall for class 1, meaning it fails to identify many vaccinated individuals. On the positive side, it has higher precision, indicating that when it predicts someone is vaccinated, it’s usually correct. Despite this, the model shows a lower F1-score and slightly lower ROC AUC, reflecting a less balanced performance and weaker ability to distinguish between the two classes compared to the logistic regression model.
 
+| Model                          | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+| ------------------------------ | -------- | --------- | ------ | -------- | ------- |
+| Logistic Regression (Balanced) | 0.78     | 0.54      | 0.72   | 0.62     | 0.83    |
+| Random Forest                  | 0.83     | 0.71      | 0.37   | 0.49     | 0.82    |
+
+
+
 ### ROC Curve Comparison 
 
 <img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/11d1df66-86e5-4603-872f-91bd0dd42abe" />
